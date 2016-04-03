@@ -1,0 +1,7 @@
+AIzaSyBcQ7KQ58csMmL4jX7UDLFt2q9Ode2EOjs
+477850940405
+adroit-dock-127010	
+
+
+
+curl --header "Authorization: key=AIzaSyBcQ7KQ58csMmL4jX7UDLFt2q9Ode2EOjs" --header "Content-Type: application/json" https://android.googleapis.com/gcm/send -d "{\"registration\_ids\":[\"APA91bE9DAy6\_p9bZ9I58rixOv-ya6PsNMi9Nh5VfV4lpXGw1wS6kxrkQbowwBu17ryjGO0ExDlp-S-mCiwKc5HmVNbyVfylhgwITXBYsmSszpK0LpCxr9Cc3RgxqZD7614SqDokwsc3vIEXkaT8OPIM-mnGMRYG1-hsarEU4coJWNjdFP16gWs\"]}"
