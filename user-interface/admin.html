@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome</title>
+    <link href="./admin/bootstrap.min.css" rel="stylesheet">
+    <link href="./admin/style.css" rel="stylesheet">
+    <!--perspective-->
+    <link rel="stylesheet" type="text/css" href="./admin/component.css" />
+    <script src="./admin/modernizr.custom.25376.js"></script>
+
+
+</head>
+
+<body >      
+
+    <div id="perspective" class="perspective effect-airbnb">
+        <div class="container" style="width: 100%">
+            <div class="wrapper2" style="width: 100%"><!-- wrapper needed for scroll -->
+                <!-- ... -->
+                
+                    <div id="page-wrapper" class="gray-bg" style="min-height: 755px;">
+            <div class="row border-bottom">
+            <nav class="navbar  white-bg" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                     <div class="navbar-minimalize minimalize-styl-2 btn">
+                                <img style="width:30px; height:30px;" src="./admin/icons/ham.png" id="showMenu">
+                    </div>
+        
+                <form role="search" class="navbar-form-custom" action="">
+                    <div class="form-group navbar-form-custom">
+                        <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
+                    </div>
+                </form>
+            </div>
+                <ul class="nav navbar-top-links navbar-right">
+                    <li>
+                        <span >Admin Panel</span>
+                    </li>           
+                <li>
+                        <a href="www.google.com">
+                            <i class="fa fa-sign-out"></i> Log out
+                        </a>
+                    </li>
+                    
+                </ul>
+
+            </nav>
+            </div>
+
+                <div class="wrapper wrapper-content">
+
+                    <div class="p-w-md m-t-sm">
+                        <div class="row">
+
+                            <div class="col-sm-4">
+                                <h1 class="m-b-xs">
+                                    26,900
+                                </h1>
+                                <small>
+                                    Sales in current month
+                                </small>
+                                <div id="sparkline1" class="m-b-sm"><canvas style="display: inline-block; width: 381px; height: 50px; vertical-align: top;" width="381" height="50"></canvas></div>
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <small class="stats-label">Pages / Visit</small>
+                                        <h4>236 321.80</h4>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <small class="stats-label">% New Visits</small>
+                                        <h4>46.11%</h4>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <small class="stats-label">Last week</small>
+                                        <h4>432.021</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-4">
+                                <h1 class="m-b-xs">
+                                    98,100
+                                </h1>
+                                <small>
+                                    Sales in last 24h
+                                </small>
+                                <div id="sparkline2" class="m-b-sm"><canvas style="display: inline-block; width: 381px; height: 50px; vertical-align: top;" width="381" height="50"></canvas></div>
+                                <div class="row">
+                                    <div class="col-xs-4">
+                                        <small class="stats-label">Pages / Visit</small>
+                                        <h4>166 781.80</h4>
+                                    </div>
+
+                                    <div class="col-xs-4">
+                                        <small class="stats-label">% New Visits</small>
+                                        <h4>22.45%</h4>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        <small class="stats-label">Last week</small>
+                                        <h4>862.044</h4>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="col-sm-4">
+
+                                <div class="row m-t-xs">
+                                    <div class="col-xs-6">
+                                        <h5 class="m-b-xs">Income last month</h5>
+                                        <h1 class="no-margins">160,000</h1>
+                                        <div class="font-bold text-navy">98% <i class="fa fa-bolt"></i></div>
+                                    </div>
+                                    <div class="col-xs-6">
+                                        <h5 class="m-b-xs">Sals current year</h5>
+                                        <h1 class="no-margins">42,120</h1>
+                                        <div class="font-bold text-navy">98% <i class="fa fa-bolt"></i></div>
+                                    </div>
+                                </div>
+
+
+                                <table class="table small m-t-sm">
+                                    <tbody>
+                                    <tr>
+                                        <td>
+                                            <strong>142</strong> Projects
+
+                                        </td>
+                                        <td>
+                                            <strong>22</strong> Messages
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>61</strong> Comments
+                                        </td>
+                                        <td>
+                                            <strong>54</strong> Articles
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>154</strong> Companies
+                                        </td>
+                                        <td>
+                                            <strong>32</strong> Clients
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="small pull-left col-md-3 m-l-lg m-t-md">
+                                    <strong> Sales chart</strong> have evolved over the years sometimes.
+                                </div>
+                                <div class="small pull-right col-md-3 m-t-md text-right">
+                                    <strong>There are many</strong> variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                </div>
+                                <div class="flot-chart m-b-xl">
+                                    <div class="flot-chart-content" id="flot-dashboard5-chart" style="padding: 0px; position: relative;">
+                                        <canvas class="flot-base" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1202px; height: 200px;" width="1502" height="250"></canvas>
+                                        <div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);">
+                                            <div  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;">
+                                                <div  style="position: absolute; max-width: 133px; top: 183px; left: 16px; text-align: center;">0</div>
+                                                <div  style="position: absolute; max-width: 133px; top: 183px; left: 163px; text-align: center;">2</div>
+                                                <div  style="position: absolute; max-width: 133px; top: 183px; left: 310px; text-align: center;">4</div>
+                                                
+                                            </div>
+                                            <div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;">
+                                            </div>
+                                        </div>
+                                        <canvas class="flot-overlay" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 1202px; height: 200px;" width="1502" height="250"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="ibox">
+
+
+
+                                    <div class="ibox-content">
+
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="message">Message</label>
+                                                    <input type="text" id="message" name="message" value="" placeholder="Message" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="title">Title</label>
+                                                    <input type="text" id="title" name="title" value="" placeholder="Title" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-2">
+                                                <div class="form-group">
+                                                    <label class="control-label" for="url">URL</label>
+                                                    <input type="text" id="url" name="url" value="" placeholder="url" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <section>
+                                                  <button id="js-trigger-overlay" type="button">PUSH</button>
+                                                </section>
+                                            </div>
+                                        </div>
+                                        <label class="control-label" for="subs">Subscribers List</label>
+                                        <div class="table-responsive">
+                                            <table class="table table-striped">
+
+                                                <tbody>
+
+                                                <tr>
+                                                    <td></td>
+                                                    <td>Name</td>
+                                                    <td>No. of Visits</td>
+                                                    <td>Date of Subscription</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>Patrick Smith</td>
+                                                    <td>892,074</td>
+                                                    <td>Jul 14, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td>Alice Jackson</td>
+                                                    <td>963,486</td>
+                                                    <td>Jul 16, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>3</td>
+                                                    <td>John Smith</td>
+                                                    <td>996,824</td>
+                                                    <td>Jul 18, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td>Anna Jordan</td>
+                                                    <td>105,192</td>
+                                                    <td>Jul 22, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td>Alice Jackson</td>
+                                                    <td>674,803</td>
+                                                    <td>Jul 16, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td>Patrick Smith</td>
+                                                    <td>174,729</td>
+                                                    <td>Jul 14, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td>Anna Jordan</td>
+                                                    <td>823,198</td>
+                                                    <td>Jul 22, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td>Patrick Smith</td>
+                                                    <td>778,696</td>
+                                                    <td>Jul 14, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td>Alice Jackson</td>
+                                                    <td>861,063</td>
+                                                    <td>Jul 16, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td>John Smith</td>
+                                                    <td>109,125</td>
+                                                    <td>Jul 18, 2015</td>
+                                                    <td><a href="www.google.com"><i class="fa fa-check text-navy"></i></a></td>
+                                                </tr>
+                                                
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            <div class="footer">
+                <div class="pull-right">
+                    Put <strong>Something</strong> here.
+                </div>
+                <div>
+                    <strong>Copyright</strong> © 2016
+                </div>
+            </div>
+            </div>
+            </div><!-- wrapper -->
+        </div><!-- /container -->
+        <nav class="outer-nav left vertical">
+            <!-- ... -->
+            <a href="#" ><img src="./admin/icons/home.png">Home</a>
+            <a href="#" ><img src="./admin/icons/account.png">Profile</a>
+            <a href="#" ><img src="./admin/icons/subscribers.png">Subscribers</a>
+            <a href="#" ><img src="./admin/icons/stats.png">Stats</a>
+            
+        </nav>
+    </div><!-- /perspective -->
+
+    <!-- Mainly scripts -->
+    <script src="./admin/jquery-2.1.1.js"></script>
+    <script src="./admin/bootstrap.min.js"></script>
+    <script src="./admin/jquery.metisMenu.js"></script>
+
+    <!-- Flot -->
+    <script src="./admin/jquery.flot.js"></script>
+    <script src="./admin/jquery.flot.spline.js"></script>
+
+    <!-- Custom and plugin javascript -->
+
+    <!-- Sparkline -->
+    <script src="./admin/jquery.sparkline.min.js"></script>
+
+
+    <script>//sparkline
+        $(document).ready(function() {
+
+            var sparklineCharts = function(){
+                $("#sparkline1").sparkline([100, 43, 43, 35, 51, 32, 44, 52], {
+                    type: 'line',
+                    width: '100%',
+                    height: '50',
+                    lineColor: '#1ab394',
+                    fillColor: "transparent"
+                });
+
+                $("#sparkline2").sparkline([32, 11, 25, 37, 41, 32, 34, 42], {
+                    type: 'line',
+                    width: '100%',
+                    height: '50',
+                    lineColor: '#1ab394',
+                    fillColor: "transparent"
+                });
+
+                $("#sparkline3").sparkline([34, 22, 24, 41, 10, 18, 16,8], {
+                    type: 'line',
+                    width: '100%',
+                    height: '50',
+                    lineColor: '#1C84C6',
+                    fillColor: "transparent"
+                });
+            };
+
+            var sparkResize;
+
+            $(window).resize(function(e) {
+                clearTimeout(sparkResize);
+                sparkResize = setTimeout(sparklineCharts, 500);
+            });
+
+            sparklineCharts();
+
+
+
+
+            var data1 = [
+                [0,4],[1,8],[2,5],[3,10],[4,4],[5,16],[6,5],[7,11],[8,6],[9,11],[10,20],[11,10],[12,13],[13,4],[14,7],[15,8],[16,12]
+            ];
+            var data2 = [
+                [0,0],[1,2],[2,7],[3,4],[4,11],[5,4],[6,2],[7,5],[8,11],[9,5],[10,4],[11,1],[12,5],[13,2],[14,5],[15,2],[16,0]
+            ];
+            $("#flot-dashboard5-chart").length && $.plot($("#flot-dashboard5-chart"), [
+                        data1,  data2
+                    ],
+                    {
+                        series: {
+                            lines: {
+                                show: false,
+                                fill: true
+                            },
+                            splines: {
+                                show: true,
+                                tension: 0.4,
+                                lineWidth: 1,
+                                fill: 0.4
+                            },
+                            points: {
+                                radius: 0,
+                                show: true
+                            },
+                            shadowSize: 2
+                        },
+                        grid: {
+                            hoverable: true,
+                            clickable: true,
+
+                            borderWidth: 2,
+                            color: 'transparent'
+                        },
+                        colors: ["#1ab394", "#1C84C6"],
+                        xaxis:{
+                        },
+                        yaxis: {
+                        },
+                        tooltip: false
+                    }
+            );
+
+        });
+    </script>
+    <script src="./admin/classie.js"></script>
+    <script src="./admin/menu.js"></script>
+
+    </body>
+</html>
